@@ -11,7 +11,7 @@ function TaskCard({ task }) {
     const buttonStyle = windowSize.width < 480 ? 'px-0.5 py-0.25 text-xs' : 'px-1 py-0.5';
 
     return (
-        <div className={`bg-indigo-800 text-white p-4 rounded-md shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ${task.completed ? 'opacity-50' : ''}`} style={{overflow: 'auto'}}>
+        <div className={`bg-indigo-800 text-white p-4 rounded-md shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ${task.completed ? 'opacity-50' : ''}`}>
             <h1 className={`text-2xl font-bold capitalize ${cardStyle}`}>{task.title}</h1>
             <p className={`text-gray-300 ${cardStyle}`}>{task.description}</p>
             <button 
@@ -29,4 +29,3 @@ function TaskCard({ task }) {
 }
 
 export default TaskCard;
-

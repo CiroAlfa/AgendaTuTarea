@@ -8,7 +8,7 @@ function TaskCard({ task }) {
 
     // Ajusta los estilos en función del tamaño de la ventana
     const cardStyle = windowSize.width < 768 ? 'text-xs' : 'text-sm';
-    const buttonStyle = windowSize.width < 480 ? 'px-1 py-0.5 text-xs' : 'px-2 py-1 text-sm';
+    const buttonStyle = windowSize.width < 480 ? 'px-1 py-0.5 text-sm' : 'px-2 py-1';
 
     return (
         <div className={`bg-indigo-800 text-white p-4 rounded-md shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ${task.completed ? 'opacity-50' : ''}`}>

@@ -2,7 +2,7 @@ export const tasks = [
     {
         id: 0,
         title: 'Meditación matutina',
-        description: " Dedica 10 minutos cada mañana para meditar, es decir, pensar profundamente en cómo usarás tu día o sobre algún tema de interés y prepárate para el día. Intenta hacerlo en un lugar tranquilo y cómodo.",
+        description: "Dedica 10 minutos cada mañana para meditar, es decir pensar profundamente en cómo usaras tu día o sobre algún tema de interes y prepararte para el día. Intenta hacerlo en un lugar tranquilo y cómodo.",
 
     },
     {
